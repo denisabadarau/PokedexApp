@@ -1,0 +1,45 @@
+@import '../../../shared/types.css';
+
+.containerSpritesCard {
+    align-items: center;
+    border-radius: inherit;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 25px 0;
+    width: 1000px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px #bfbe9c;
+}
+
+.containerSprite {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.sprites {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.spriteContainer {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.spriteImage img {
+    width: 200px;
+}
+
+.spriteCardTitle {
+    font-size: 20px;
+    font-weight: 550;
+    text-transform: capitalize;
+}

@@ -1,0 +1,20 @@
+.pokemonTypeIcon img {
+    width: 20px;
+}
+
+.pokemonType {
+    border-radius: 5px;
+    color: var(--white);
+    filter: brightness(.9);
+    margin: 10px;
+    text-align: center;
+    width: 80px;
+    display: flex;
+    padding: 5px;
+    justify-content: space-between;
+    box-shadow: 2px 2px 5px #bfbe9c;
+}
+
+.pokemonTypeTitle {
+    text-transform: capitalize;
+}

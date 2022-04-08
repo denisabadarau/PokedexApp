@@ -1,0 +1,50 @@
+.firstContainer {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.secondContainer {
+    justify-content: center;
+    width: 100%;
+    margin: 2%;
+    align-items: flex-start;
+}
+
+.descriptionContainer {
+    max-width: 500px;
+}
+
+.descriptionTitle {
+    font-size: 35px;
+}
+
+.selectLabel {
+    font-size: 20px;
+}
+
+.selectDescription {
+    border-radius: 10px;
+    border: 1px solid black;
+}
+
+.currentDescriotionContainer {
+    margin: 5% 0 5% 0;
+}
+
+.pokemonAvatar {
+    background-color: var(--);
+}
+
+@media (max-width: 1000px) {
+    .firstContainer {
+        display: block;
+    }
+
+    .descriptionContainer {
+        margin-left: 25%;
+    }
+}

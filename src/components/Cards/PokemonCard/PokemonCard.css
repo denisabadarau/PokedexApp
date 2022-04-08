@@ -1,0 +1,39 @@
+@import '../../../shared/types.css';
+
+.pokemonCard {
+  color: var(--white);
+  align-items: center;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 20px;
+  width: 275px;
+  box-shadow: 10px 10px 5px #BFBE9C;
+}
+
+.cardHeader {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  width: 85%;
+  padding: 10px;
+}
+
+
+.cardBody {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+}
+
+.pokemonImage img {
+  height: 130px;
+  width: 130px;
+}
+
+.cardTitle {
+  font-size: 30px;
+  text-transform: capitalize;
+}

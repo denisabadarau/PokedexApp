@@ -1,0 +1,82 @@
+@import '../../../shared/types.css';
+
+.containerMainCard {
+  align-items: center;
+  color: var(--white);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 20px;
+  min-width: 535px;
+  padding: 3%;
+  border-radius: 3%;
+  box-shadow: 10px 10px 5px #BFBE9C;
+}
+
+.headerMainCard {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.type {
+  border-radius: 5px;
+  color: var(--white);
+  filter: brightness(.9);
+  margin-bottom: 10px;
+  text-align: center;
+  width: 80px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+  padding: 10px;
+}
+
+.pokemonTypeTitle {
+  text-transform: capitalize;
+}
+
+.types {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.pokemonImageCard img {
+  max-height: 400px;
+}
+
+.footerMainCard {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  justify-content: center;
+  color: var(--black);
+}
+
+.detailsContainer {
+  font-size: 17px;
+  filter: brightness(.9);
+  padding: 5px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px #bfbe9c;
+}
+
+.detailsContainerTitle {
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.mainCardTitle {
+  font-size: 40px;
+  text-transform: capitalize
+}
+
+.mainCardId {
+  font-size: 25px;
+}

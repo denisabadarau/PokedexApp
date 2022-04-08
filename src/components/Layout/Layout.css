@@ -1,0 +1,40 @@
+.Layout {
+    align-items: flex-start;
+    background-color: var(--background);
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+    width: 100vw;
+    font-family: 'Baloo 2', cursive;
+}
+
+.LayoutContainer {
+    max-width: 1080px;
+}
+
+.LayoutHeader {
+    font-size: 100px;
+    text-align: center;
+}
+
+.LayoutContent {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+}
+
+.title {
+    color: var(--title);
+}
+
+@media (max-width: 1000px) {
+    .Layout {
+        width: 100%;
+    }
+
+    .LayoutContainer {
+        width: 100%;
+    }
+}
