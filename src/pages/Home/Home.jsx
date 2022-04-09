@@ -39,13 +39,12 @@ export default function Home() {
             <Grid container>
                 {renderPokemonCard}
             </Grid>
-            <Button
-                colorScheme='teal'
-                variant='outline'
+            <button
+                className="loadButton"
                 onClick={() => getAllPokemons()}
             >
                 Load more
-            </Button>
+            </button>
         </>
     );
 }
