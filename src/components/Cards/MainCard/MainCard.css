@@ -80,3 +80,9 @@
 .mainCardId {
   font-size: 25px;
 }
+
+@media (max-width: 1000px) {
+  .containerMainCard {
+    width: 50%;
+  }
+}

@@ -104,12 +104,12 @@ export default function Pokemon() {
                         <PowersCard pokemon={pokemon} />
                     </div>
                 </div>
-                <div className="descriptionTitle">Evolutions</div>
                 <div className="secondContainer">
+                    <div className="descriptionTitle">Evolutions</div>
                     <EvolutionsCard pokemonType={pokemonType} species={species} />
                 </div>
-                <div className="descriptionTitle">Sprites</div>
                 <div className="secondContainer">
+                    <div className="descriptionTitle">Sprites</div>
                     <SpritesCard pokemon={pokemon} />
                 </div>
             </div>

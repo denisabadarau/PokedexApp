@@ -7,7 +7,7 @@
     flex-direction: column;
     justify-content: center;
     padding: 25px 0;
-    width: 1000px;
+    width: 100%;
     border-radius: 10px;
     box-shadow: 5px 5px 5px #bfbe9c;
 }
@@ -42,4 +42,12 @@
     font-size: 20px;
     font-weight: 550;
     text-transform: capitalize;
+}
+
+@media (max-width: 1000px) {
+    .containerSpritesCard {
+        align-self: center;
+        flex-direction: column;
+        max-width: 300px;
+    }
 }

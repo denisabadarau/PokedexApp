@@ -11,7 +11,6 @@
     justify-content: center;
     width: 100%;
     margin: 2%;
-    align-items: flex-start;
 }
 
 .descriptionContainer {
@@ -41,10 +40,13 @@
 
 @media (max-width: 1000px) {
     .firstContainer {
-        display: block;
+        align-self: center;
+        flex-direction: column;
     }
 
-    .descriptionContainer {
-        margin-left: 25%;
+    .secondContainer {
+        align-self: center;
+        flex-direction: column;
+        margin-left: 30%;
     }
 }

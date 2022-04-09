@@ -1,5 +1,4 @@
 .Layout {
-    align-items: flex-start;
     background-color: var(--background);
     display: flex;
     justify-content: center;
@@ -18,23 +17,10 @@
 }
 
 .LayoutContent {
-    align-items: center;
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    padding: 20px;
+    flex-direction: column;
 }
 
 .title {
     color: var(--title);
-}
-
-@media (max-width: 1000px) {
-    .Layout {
-        width: 100%;
-    }
-
-    .LayoutContainer {
-        width: 100%;
-    }
 }
