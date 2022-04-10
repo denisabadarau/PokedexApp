@@ -11,4 +11,6 @@ This page contains a main card, in which the details about the pokemon are prese
 The user can also select from which game he wants to view the description of the pokemon. \
 There is also a container for pokemon evolutions. They can evolve into 1 or more pokemon. \
 On each page there is a next and previous button, so you can more easily access the pokemons. \
-The site is also responsive.
+The site is also responsive. \
+https://pokeapi.co/docs/v2# \
+https://pokemondb.net/sprites/
