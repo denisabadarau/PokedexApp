@@ -68,7 +68,7 @@ export default function Pokemon() {
                                 borderRadius='full'
                                 boxSize='48px'
                                 src={previousPokemon?.['sprites']['other']['official-artwork']['front_default']}
-                                alt='Dan Abramov'
+                                alt='Previous pokemon'
                                 fallbackSrc={egg}
                             />
                         </Button>
@@ -79,7 +79,7 @@ export default function Pokemon() {
                                 borderRadius='full'
                                 boxSize='48px'
                                 src={nextPokemon?.['sprites']['other']['official-artwork']['front_default']}
-                                alt='Dan Abramov'
+                                alt='Next pokemon'
                                 fallbackSrc={egg}
                             />
                         </Button>

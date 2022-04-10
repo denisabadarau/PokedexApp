@@ -7,10 +7,12 @@ export default function PowersCard({ pokemon }) {
     const pokemonType = pokemon?.types[0]?.type?.name;
 
     function getColor(power) {
-        if (power <= 50) {
+        if (power < 85) {
             return "red";
-        } else {
+        } else if (power >= 85 && power <= 170) {
             return "yellow";
+        } else {
+            return "green";
         }
     }
     const powerLine = (title, number, key) => (
@@ -19,7 +21,15 @@ export default function PowersCard({ pokemon }) {
                 {String(title).replaceAll('-', ' ')}
             </div>
             <div className="powerLineBar">
-                <Progress hasStripe value={number} size="lg" colorScheme={getColor(number)} />
+                <Progress
+                    hasStripe
+                    value={number}
+                    size="lg"
+                    colorScheme={getColor(number)}
+                    isAnimated
+                    min='1'
+                    max='255'
+                />
             </div>
             <div className="powerLineNumber">
                 {number}

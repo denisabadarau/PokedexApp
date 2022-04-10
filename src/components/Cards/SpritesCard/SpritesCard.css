@@ -1,15 +1,17 @@
 @import '../../../shared/types.css';
 
 .containerSpritesCard {
-    align-items: center;
-    border-radius: inherit;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    padding: 25px 0;
-    width: 100%;
     border-radius: 10px;
+    display: flex;
+    padding: 5px 0;
+    width: 100%;
+    margin-bottom: 15px;
+    align-items: center;
+    min-height: 300px;
+    justify-content: space-around;
     box-shadow: 5px 5px 5px #bfbe9c;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 
 .containerSprite {
@@ -18,24 +20,12 @@
     justify-content: center;
 }
 
-.sprites {
-    align-items: center;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    gap: 20px;
-    justify-content: center;
-}
-
 .spriteContainer {
     align-items: center;
     display: flex;
     justify-content: center;
     flex-direction: column;
-}
-
-.spriteImage img {
-    width: 200px;
+    margin: 5%;
 }
 
 .spriteCardTitle {
