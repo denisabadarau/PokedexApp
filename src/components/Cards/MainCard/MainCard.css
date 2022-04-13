@@ -7,7 +7,6 @@
   flex-direction: column;
   justify-content: center;
   margin: 20px;
-  min-width: 535px;
   padding: 3%;
   border-radius: 3%;
   box-shadow: 10px 10px 5px #BFBE9C;
@@ -53,7 +52,6 @@
 .footerMainCard {
   align-items: flex-start;
   display: flex;
-  flex-direction: row;
   gap: 30px;
   justify-content: center;
   color: var(--black);
@@ -83,6 +81,27 @@
 
 @media (max-width: 1000px) {
   .containerMainCard {
-    width: 50%;
+    width: 300px;
+  }
+
+  .footerMainCard {
+    gap: 5px;
+  }
+
+  .detailsContainerTitle {
+    font-size: 10px;
+  }
+
+  .detailsContainer {
+    font-size: 10px;
+  }
+
+  .headerMainCard {
+    flex-direction: column;
+  }
+
+  .pokemonImageCard img {
+    max-height: 200px;
+    max-width: 200px;
   }
 }

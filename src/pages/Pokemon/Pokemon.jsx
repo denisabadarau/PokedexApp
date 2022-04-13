@@ -85,7 +85,7 @@ export default function Pokemon() {
                         </Button>
                     </a>
                 </Stack>
-                <div className="firstContainer">
+                <div className="pokemonContainer">
                     <MainCard pokemon={pokemon} species={species} />
                     <div className="descriptionContainer">
                         <div className="descriptionTitle">
@@ -104,12 +104,12 @@ export default function Pokemon() {
                         <PowersCard pokemon={pokemon} />
                     </div>
                 </div>
-                <div className="secondContainer">
-                    <div className="descriptionTitle">Evolutions</div>
+                <div className="descriptionTitle">Evolutions</div>
+                <div className="pokemonContainer">
                     <EvolutionsCard pokemonType={pokemonType} species={species} />
                 </div>
-                <div className="secondContainer">
-                    <div className="descriptionTitle">Sprites</div>
+                <div className="descriptionTitle">Sprites</div>
+                <div className="pokemonContainer">
                     <SpritesCard pokemon={pokemon} />
                 </div>
             </div>

@@ -1,16 +1,10 @@
-.firstContainer {
+.pokemonContainer {
     align-items: center;
     display: flex;
     flex-direction: row;
     gap: 20px;
     justify-content: space-between;
     width: 100%;
-}
-
-.secondContainer {
-    justify-content: center;
-    width: 100%;
-    margin: 2%;
 }
 
 .descriptionContainer {
@@ -39,14 +33,12 @@
 }
 
 @media (max-width: 1000px) {
-    .firstContainer {
+    .pokemonContainer {
         align-self: center;
         flex-direction: column;
     }
 
-    .secondContainer {
-        align-self: center;
-        flex-direction: column;
-        margin-left: 30%;
+    .descriptionContainer {
+        width: 300px;
     }
 }
